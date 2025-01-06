@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteCond %{SERVER_PORT} 8080 
+RewriteRule ^(.*)$ https://khushiwellness.com/$1 [R,L]

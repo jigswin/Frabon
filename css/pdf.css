@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui;
+    font-weight: 500;
+}
+/* body{
+    
+} */
+.download {
+    background: #002060;
+    color: #FFF;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.RLqTa {
+    height: 1122px;
+    width: 795px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    background: #002060;
+}
+.card {
+    overflow: hidden;
+    height: 95%;
+    width: 100%;
+    padding: 50px 0;
+    background: #FFF;
+    position: relative;
+}
+.card:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    border-top: 80px solid #002060;
+    border-right: 170px solid transparent;
+}
+.card:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 80px solid #002060;
+    border-left: 170px solid transparent;
+}
+
+/**************************************************************************************
+* Home
+**************************************************************************************/
+
+.card_content {
+    border: 4px solid #002060;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 36px auto;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_content img {
+    width: 100%;
+}
+.card_content2 {
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+}
+.card_content2 h2 {
+    margin: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+.card_content2 p {
+    font-size: 18px;
+    margin: 7px;
+}
+.dis_flex {
+    display: flex;
+    justify-content: center;
+}
+.BFqZ4 {
+    margin-top: 20px;
+}
+.dis_flex .link_btn {
+    background: #002060;
+    color: #fff;
+    margin: 5px;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 19px;
+    line-height: 1;
+}
+.S6oZk {
+    margin-top: -4px;
+    font-weight: 400;
+}
+.contact_details {
+    margin: 50px 0;
+}
+.contact_details .contact_d {
+    display: flex;
+    color: black;
+    align-items: center;
+    margin-top: -20px;
+    padding-right: 20px;
+}
+.contact_d:before {
+    content: '';
+    height: 60px;
+    border-bottom: 30px solid transparent;
+    border-left: 60px solid #002060;
+    border-top: 30px solid transparent;
+}
+.contact_details .contact_d i {
+    color: #fdfdfd;
+    position: absolute;
+    left: 20px;
+    font-size: 22px;
+}
+.contact_details .contact_d p {
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: center;
+}
+
+.social_med {
+    margin: 8px;
+    background: #002060;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_med i {
+    font-size: 25px;
+    color: #FFF;
+}
+
+/**************************************************************************************
+* About Us
+**************************************************************************************/
+
+.JWVAg {
+    margin: auto;
+    padding: 50px;
+    letter-spacing: .4px;
+}
+.Mgoff {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.Mgoff:before {
+    content: "";
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    background: #002060;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+.cLfhk {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.PckwQ {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/**************************************************************************************
+* Gallery
+**************************************************************************************/
+
+.b8TVq {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vu1hq {
+	width: 47%;
+    margin: 1.5%;
+}
+.XoB8n {
+	max-height: 170px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 40%), 0 1px 18px 0 rgb(0 0 0 / 40%), 0 3px 5px -1px rgb(0 0 0 / 20%);
+}
+.XoB8n img {
+    width: 100%;
+}
+
+/**************************************************************************************
+* Payment
+**************************************************************************************/
+
+.MVDM1 {
+    margin-top: 50px;
+}
+.tl6eT {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.GxDV1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
